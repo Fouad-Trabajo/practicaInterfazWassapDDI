@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/camera"
+        android:enabled="true"
+        android:icon="@drawable/camera"
+        app:showAsAction="ifRoom"
+        android:title="@string/chats"/>
+    <item
+        android:id="@+id/search"
+        android:enabled="true"
+        android:icon="@drawable/search"
+        app:showAsAction="ifRoom"
+        android:title="@string/chats"/>
+
+    <item
+        android:id="@+id/new_group"
+        android:enabled="true"
+        android:title="@string/new_group"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/new_difusion"
+        android:enabled="true"
+        app:showAsAction="never"
+        android:title="@string/new_difusion"/>
+    <item
+        android:id="@+id/settings"
+        android:enabled="true"
+        app:showAsAction="never"
+        android:title="@string/devices"/>
+</menu>

@@ -1,3 +1,16 @@
 <resources>
     <string name="app_name">PracticaInterfazWassapDDI</string>
+    <string name="chats">Chats</string>
+    <string name="news">Novedades</string>
+    <string name="comunnity">Comunidades</string>
+    <string name="calls">Llamadas</string>
+    <string name="_title">Whatsapp</string>
+    <string name="title_whatsapp">WhatsApp</string>
+    <string name="new_group">Nuevo grupo</string>
+    <string name="new_difusion">Nueva difusión</string>
+    <string name="devices">Dispositivos vinculados</string>
+    <string name="more_chat">Add more chats in WhatsApp</string>
+    <string name="chair">Image for a chair</string>
+    <string name="title_item">Title</string>
+    <string name="description_item">Descripción</string>
 </resources>
