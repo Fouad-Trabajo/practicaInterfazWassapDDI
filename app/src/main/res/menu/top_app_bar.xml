@@ -28,5 +28,6 @@
         android:id="@+id/settings"
         android:enabled="true"
         app:showAsAction="never"
-        android:title="@string/devices"/>
+        android:icon="@drawable/settings"
+        android:title="@string/settings"/>
 </menu>
