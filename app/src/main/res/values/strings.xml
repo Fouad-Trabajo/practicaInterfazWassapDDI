@@ -14,4 +14,6 @@
     <string name="chair">Image for a chair</string>
     <string name="title_item">Title</string>
     <string name="description_item">Descripción</string>
+    <string name="hint_edit_text">Busqueda de contacto</string>
+    <string name="lorem">"Ejemplo de texto "</string>
 </resources>

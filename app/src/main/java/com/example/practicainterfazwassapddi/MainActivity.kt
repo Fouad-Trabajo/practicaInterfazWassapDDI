@@ -17,7 +17,8 @@ class MainActivity : AppCompatActivity() {
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
         insignias()
-        floatButton()
+        bottomNavigationItems()
+        editText()
     }
 
     private fun insignias(){
@@ -38,11 +39,7 @@ class MainActivity : AppCompatActivity() {
         calls.number = 2
     }
 
-    private fun floatButton(){
-        binding.floatingButton.setOnClickListener{
-            Toast.makeText(this, "Se ha pulsado el boton flotante", Toast.LENGTH_LONG).show()
-        }
-
+    private fun bottomNavigationItems(){
         binding.bottomNavigation.setOnItemSelectedListener{ item ->
             when(item.itemId) {
                 R.id.chat -> {
@@ -64,5 +61,15 @@ class MainActivity : AppCompatActivity() {
                 else -> false
             }
         }
+    }
+
+    private fun editText(){
+
+
+        binding.floatingButton.setOnClickListener{
+            val inputEditText = binding.editText.text.toString()
+            binding.textview.text = inputEditText
+        }
+
     }
 }

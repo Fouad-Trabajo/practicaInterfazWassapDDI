@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="generalText" parent="Widget.AppCompat.TextView">
+        <item name="android:fontFamily">@font/agbalumo</item>
+        <item name="android:textColor">@color/md_theme_error</item>
+        <item name="android:textSize">@dimen/large_text</item>
+    </style>
+
+    <style name="text" parent="Widget.AppCompat.TextView">
+        <item name="android:textColor">@color/md_theme_tertiaryFixedDim</item>
+    </style>
+
+</resources>
