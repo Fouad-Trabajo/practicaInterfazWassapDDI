@@ -20,6 +20,7 @@
             android:id="@+id/top_bar"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            app:titleTextAppearance="@style/generalText"
             android:minHeight="?attr/actionBarSize"
             app:menu="@menu/top_app_bar"
             app:title="@string/title_whatsapp" />
